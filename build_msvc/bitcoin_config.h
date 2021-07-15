@@ -15,28 +15,28 @@
 #define CLIENT_VERSION_IS_RELEASE false
 
 /* Major version */
-#define CLIENT_VERSION_MAJOR 21
+#define CLIENT_VERSION_MAJOR 1
 
 /* Minor version */
-#define CLIENT_VERSION_MINOR 99
+#define CLIENT_VERSION_MINOR 0
 
 /* Copyright holder(s) before %s replacement */
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Ore developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Bitcoin Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "Bitcoin Ore"
 
 /* Copyright year */
-#define COPYRIGHT_YEAR 2019
+#define COPYRIGHT_YEAR 2021
 
 /* Define to 1 to enable wallet functions */
 #define ENABLE_WALLET 1
 
 /* Define to 1 to enable BDB wallet */
-#define USE_BDB 1
+#define USE_BDB 0
 
 /* Define to 1 to enable SQLite wallet */
 #define USE_SQLITE 1
