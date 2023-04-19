@@ -92,15 +92,13 @@ void* Arena::alloc(size_t size)
 void Arena::free(void *ptr)
 {
     // Freeing the nullptr pointer is OK.
-    if (ptr == nullptr) {
+    if (ptr == nullptr)
         return;
-    }
 
     // Remove chunk from used map
     auto i = chunks_used.find(static_cast<char*>(ptr));
-    if (i == chunks_used.end()) {
+    if (i == chunks_used.end())
         throw std::runtime_error("Arena: invalid or double free");
-    }
     std::pair<char*, size_t> freed = *i;
     chunks_used.erase(i);
 
